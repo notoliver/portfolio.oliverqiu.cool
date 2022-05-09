@@ -46,7 +46,7 @@ var gamedev = [
     {
         module: 'description',
         text: 'Riley\'s Room is a solo narrative environment art project that explores leaving for and returning from college.',
-        inline: 'style="font-size:20px;"'
+        inline: 'style="font-size:20px;text-align:left"'
     },
     {
         module: 'spacer',
@@ -129,7 +129,7 @@ var gamedev = [
     },
     {
         module: 'description',
-        text: 'Tech used: Unity, C#, Blender, Photoshop, GIMP<br><br>descriptions',
+        text: 'Tech used: Unity, C#, Blender, Photoshop, GIMP<br><br>Riley\'s Room was my senior design project, done individually. Along with my <a href = \"\/assets\/oliverqiu_imperfection_final.pdf\" target=\"_blank\" style="color:black">senior thesis<\/a>, it was part of my exploration of creating believable (interior) spaces. I concepted a feeling I wanted to capture, and produced all of my 3D assets to real world scale and reference. For this project specifically, I emphasized preproduction and research, as well as creating efficient pipelines for asset creation and implementation in Unity. Imagining a space and materializing it beginning to end is a process I hope to continue to learn about.',
         inline: 'style="text-align:left;font-size:18px;"'
     },
     {
@@ -147,8 +147,13 @@ var gamedev = [
     },
     {
         module: 'description',
-        text: 'Stellae is a narrative adventure game created by a team of students led by myself.',
-        inline: 'style="font-size:20px;"'
+        text: 'Stellae is a narrative adventure game created by a team of students led by myself. It follows the story of a teenage girl forced to go on a camping trip with her recently divorced dad.',
+        inline: 'style="font-size:20px;text-align:left"'
+    },
+    {
+        module: 'description',
+        text: 'Learn more here: <a href="https://www.behance.net/gallery/117930977/Stellae?tracking_source=search_projects_recommended%7Cstellae" target="_blank" style="color:black">Behance</a>',
+        inline: 'style="font-size:20px;text-align:left"'
     },
     {
         module: 'spacer',
@@ -198,7 +203,7 @@ var gamedev = [
     },
     {
         module: 'description',
-        text: 'Link to design document.',
+        text: 'Here is the <a href="stellae_finaldocument.pdf" target="_blank" style="color:black">design document</a>, and my personal developer journals <a href="stellae_devjournal1.pdf" target="_blank" style="color:black">one</a> and <a href="stellae_devjournal2.pdf" target="_blank" style="color:black">two</a>',
         inline: 'style="font-size:20px;"'
     },
     {
@@ -223,7 +228,7 @@ var gamedev = [
     },
     {
         module: 'description',
-        text: 'Things I did in this project<br>descriptions',
+        text: 'Tech used: Unity, C#, Blender, Photoshop, GIMP, Ableton, Github<br><br>My responsibilities and contributions were:<br>&emsp;- Communicating and coordinating between team members, establishing tasks, deliverables, and deadlines<br>&emsp;- Managing project version control and sync between members<br>&emsp;- Direction/vision and corresponding advice to members<br>&emsp;- Basic environment layout/design<br>&emsp;- Coding interaction, inventory system, and game flow<br>&emsp;- Some 3D assets<br>&emsp;- Sound design and original soundtrack',
         inline: 'style="text-align:left;font-size:18px;"'
     },
     {
@@ -699,7 +704,7 @@ var photo = [
     {
         module: 'description',
         text: 'Spaces in games mean alot to me. The feeling of being transported to these worlds - breathing, taking it in, is something I will never take for granted. Game photography, or "screenarchery" as it\'s referred to by some, is a way for me to enjoy and rediscover spaces past my fourth playthrough of a game. It also inspires me, and allows me to appreciate the work of the artists and developers crafting props that might barely recieve a second thought (not to mention it also provides me and endless supply of wallpapers). I use camera tools, and some post-processing suites like ReShade.',
-        inline: 'style="font-size:18px;text-align:left;max-width:1600px"'
+        inline: 'style="font-size:20px;text-align:left;max-width:1600px"'
     },
     {
         module: 'spacer',
@@ -879,7 +884,7 @@ var photo = [
     {
         module: 'description',
         text: 'I record environmental scenes in various games for use with Wallpaper engine, a program that lets users use animated wallpapers. <a href="https://steamcommunity.com/id/notoliver/myworkshopfiles/" target="_blank" style="color:black">Steam workshop link</a>',
-        inline: 'style="font-size:18px;text-align:left;max-width:1600px"'
+        inline: 'style="font-size:20px;text-align:left;max-width:1600px"'
     },
     {
         module: 'spacer',
