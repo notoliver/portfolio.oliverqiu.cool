@@ -21,7 +21,7 @@ var home = [
     },
     {
         module: 'description',
-        text: 'Coded from scratch, source <a href = "https://github.com/notoliver/stuff.oliverqiu.cool" style="color:black" target=\"_blank\">here</a>'
+        text: 'Coded from scratch, source <a href = "https://github.com/notoliver/portfolio.oliverqiu.cool" style="color:black" target=\"_blank\">here</a>'
     }
 ]
 
