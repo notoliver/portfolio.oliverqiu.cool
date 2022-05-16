@@ -108,7 +108,10 @@ var gamedev = [
         height: '10px'
     },
     {
-        module: 'photogrid',
+        module: 'responsivegallery',
+        id: 'rileysextragallery',
+        targetHeight: 250,
+        offset: 6,
         filenames: [
             {
                 image: 'rr_planning1.png',
@@ -167,7 +170,7 @@ var gamedev = [
         module: 'responsivegallery',
         id: 'stellaegallery',
         targetHeight: 350,
-        offset: 6,
+        offset: 9,
         filenames: [
             {
                 image: 'st_1.jpg',
@@ -207,7 +210,10 @@ var gamedev = [
         inline: 'style="font-size:20px;"'
     },
     {
-        module: 'photogrid',
+        module: 'responsivegallery',
+        id: 'stellaeextragallery',
+        targetHeight: 250,
+        offset: 15,
         filenames: [
             {
                 image: 'st_planning1.png',
@@ -269,6 +275,21 @@ var gamedev = [
                 y: '108'
             },
             {
+                image: 'rr_planning1.png',
+                x: '192',
+                y: '108'
+            },
+            {
+                image: 'rr_planning2.png',
+                x: '192',
+                y: '108'
+            },
+            {
+                image: 'rr_progress3.png',
+                x: '192',
+                y: '108'
+            },
+            {
                 image: 'st_1.jpg',
                 x: '192',
                 y: '108'
@@ -295,6 +316,21 @@ var gamedev = [
             },
             {
                 image: 'st_6.jpg',
+                x: '192',
+                y: '108'
+            },
+            {
+                image: 'st_planning1.png',
+                x: '192',
+                y: '108'
+            },
+            {
+                image: 'st_planning2.png',
+                x: '192',
+                y: '108'
+            },
+            {
+                image: 'st_progress3.jpg',
                 x: '192',
                 y: '108'
             }
