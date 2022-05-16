@@ -234,8 +234,13 @@ var gamedev = [
     },
     {
         module: 'description',
-        text: 'Tech used: Unity, C#, Blender, Photoshop, GIMP, Ableton, Github<br><br>My responsibilities and contributions were:<br>&emsp;- Communicating and coordinating between team members, establishing tasks, deliverables, and deadlines<br>&emsp;- Managing project version control and sync between members<br>&emsp;- Direction/vision and corresponding advice to members<br>&emsp;- Basic environment layout/design<br>&emsp;- Coding interaction, inventory system, and game flow<br>&emsp;- Some 3D assets<br>&emsp;- Sound design and original soundtrack',
+        text: 'Tech used: Unity, C#, Blender, Photoshop, GIMP, Ableton, Github<br><br>My responsibilities and contributions were:',
         inline: 'style="text-align:left;font-size:18px;"'
+    },
+    {
+        module: 'description',
+        text: '- Communicating and coordinating between team members, establishing tasks, deliverables, and deadlines<br>& Managing project version control and sync between members<br>- Direction/vision and corresponding advice to members<br>- Basic environment layout/design<br>- Coding interaction, inventory system, and game flow<br>- Some 3D assets<br>- Sound design and original soundtrack',
+        inline: 'style="text-align:left;font-size:18px;padding-left:1.5%;margin-top:0px;"'
     },
     {
         module: 'spacer',
@@ -636,8 +641,13 @@ var code = [
     },
     {
         module: 'description',
-        text: 'Tech Used: C++, GLSL, Visual Studio<br><br>In my senior year, I took an upper level computer graphics course - I<br>&emsp;- learned about the principles of and programmed a simple <a href="https://github.com/notoliver/cap4730_raytracer" target="_blank" style="color:black">first-hit raytracer</a> using C++, GLFW, and GLEW<br>&emsp;- studied the graphics pipeline and coded an <a href="https://github.com/notoliver/cap4730_openglviewer" target="_blank" style="color:black">OpenGL 3D model viewer</a> with C++, those same libraries, and GLSL<br>&emsp;- implemented both Phong and Gouraud shading, as well as a depth view',
+        text: 'Tech Used: C++, GLSL, Visual Studio<br><br>In my senior year, I took an upper level computer graphics course - I',
         inline: 'style="text-align:left;font-size:18px;"'
+    },
+    {
+        module: 'description',
+        text: '- learned about the principles of and programmed a simple <a href="https://github.com/notoliver/cap4730_raytracer" target="_blank" style="color:black">first-hit raytracer</a> using C++, GLFW, and GLEW<br>- studied the graphics pipeline and coded an <a href="https://github.com/notoliver/cap4730_openglviewer" target="_blank" style="color:black">OpenGL 3D model viewer</a> with C++, those same libraries, and GLSL<br>- implemented both Phong and Gouraud shading, as well as a depth view',
+        inline: 'style="text-align:left;font-size:18px;padding-left:1.5%;margin-top:0px;"'
     },
     {
         module: 'spacer',
@@ -670,8 +680,13 @@ var code = [
     },
     {
         module: 'description',
-        text: 'Tech Used: Processing, Javascript, Visual Studio Code<br><br>Various programming projects with visual components/interfaces<br>&emsp;- a <a href="https://github.com/notoliver/cap3027_project2" target="_blank" style="color:black">random walk generator</a> with boundary detection, terrain coloring, and various parameters<br>&emsp;- a <a href="https://github.com/notoliver/cap3027_project4" target="_blank" style="color:black">terrain visualiser</a> that renders depth maps as 3D terrains, with various features like displacement and color thresholds<br>&emsp;- <a href="https://github.com/notoliver/cap3032_finalproject" target="_blank" style="color:black">"Turntable Simulator"</a> minigame, where the player controls a tone arm and has to dodge dust specs and scratches',
+        text: 'Tech Used: Processing, Javascript, Visual Studio Code<br><br>Various programming projects with visual components/interfaces',
         inline: 'style="text-align:left;font-size:18px;"'
+    },
+    {
+        module: 'description',
+        text: '- a <a href="https://github.com/notoliver/cap3027_project2" target="_blank" style="color:black">random walk generator</a> with boundary detection, terrain coloring, and various parameters<br>- a <a href="https://github.com/notoliver/cap3027_project4" target="_blank" style="color:black">terrain visualiser</a> that renders depth maps as 3D terrains, with various features like displacement and color thresholds<br>- <a href="https://github.com/notoliver/cap3032_finalproject" target="_blank" style="color:black">"Turntable Simulator"</a> minigame, where the player controls a tone arm and has to dodge dust specs and scratches',
+        inline: 'style="text-align:left;font-size:18px;padding-left:1.5%;margin-top:0px;"'
     },
     {
         module: 'spacer',
