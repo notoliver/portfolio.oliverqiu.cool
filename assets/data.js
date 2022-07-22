@@ -10,7 +10,7 @@ var home = [
     {
         module: 'imgtext',
         filename: '/about/images/IMG_5394.jpg',
-        text: 'Hi, I\'m Oliver, an aspiring game developer and artist amongst other things. I recently graduated from the University of Florida with a B.S. in Digital Arts & Sciences<br><br>What has drawn me to videogames my whole life is their ability to immerse their audience in narratives and environments like no other artistic medium. To tell familiar (and unfamiliar) stories, to evoke otherwise indescribable emotions, and to craft detailed, authentic spaces are goals that inform what I do and why.<br><br>I\'m also deeply passionate about music - I transcribe, share knowledge about, and cover music I love on my <a href = "https://www.youtube.com/c/naughtoliver" target=\"_blank\">youtube channel</a>. I also create original easy listening and ambient <a href = "https://oliverqiu.cool/music/ep5" target=\"_blank\">music.</a><br><br>On the weekends you\'ll find me cycling on the Gainesville-Hawthorne State Trail or practicing my euro-steps at the local basketball court.<br><br>You can find my resume <a href = \"\/assets\/oliverqiu_resume.pdf\" target=\"_blank\">here<\/a><br><br>And my senior thesis <a href = \"https:\/\/ufdc.ufl.edu\/AA00088513\/00001\" target=\"_blank\">here<\/a>'
+        text: 'Hi, I\'m Oliver, an aspiring game producer and artist amongst other things. I recently graduated from the University of Florida with a B.S. in Digital Arts & Sciences<br><br>To tell familiar (and unfamiliar) stories, to evoke otherwise indescribable emotions, and to craft detailed, authentic spaces are goals that inform what I do and why across all mediums.<br>Although the bulk of my technical experience lies in games, my college program and personal passions have given me the tools to contribute within multiple disciplines.<br><br>I\'m also deeply passionate about music - I transcribe, share knowledge about, and cover music I love on my <a href = "https://www.youtube.com/c/naughtoliver" target=\"_blank\">youtube channel</a>. I also create original easy listening and ambient <a href = "https://oliverqiu.cool/music/ep5" target=\"_blank\">music.</a><br><br>On the weekends you\'ll find me cycling on the Gainesville-Hawthorne State Trail or practicing my euro-steps at the local basketball court.<br><br>You can find my resume <a href = \"\/assets\/oliverqiu_pa_resume.pdf\" target=\"_blank\">here<\/a><br><br>And my senior thesis <a href = \"https:\/\/ufdc.ufl.edu\/AA00088513\/00001\" target=\"_blank\">here<\/a>'
     },
     {
         module: 'spacer',
@@ -25,14 +25,49 @@ var home = [
     }
 ]
 
-var gamedev = [
+var projects = [
     {
         module: 'header',
-        active: 'gamedev'
+        active: 'projects'
     },
     {
         module: 'spacer',
         height: '10px'
+    },
+    {
+        module: 'title',
+        text: 'A Musical World',
+        inline: 'style="text-align:left;"'
+    },
+    {
+        module: 'spacer',
+        height: '10px'
+    },
+    {
+        module: 'description',
+        text: 'A Musical World is a short developed for a 2D animation class taught by <a style="color:black" href="https://www.chelsearaestudio.com/" target="_blank">Chelsea Cantrell</a>.',
+        inline: 'style="font-size:20px;text-align:left"'
+    },
+    {
+        module: 'spacer',
+        height: '15px'
+    },
+    {
+        module: 'videoembed',
+        html: '<div class = "video-container"><iframe width="1280" height="720" src="https://www.youtube.com/embed/LY1xlMukQcY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+    },
+    {
+        module: 'spacer',
+        height: '10px'
+    },
+    {
+        module: 'description',
+        text: 'Tech used: Photoshop, GIMP, Toon Boom Harmony, Adobe Premiere<br><br>A Musical World was the final project in a 2D animation class I took - the culmination of smaller, fundamental projects ranging from drawing animation principles like <a href="https://youtu.be/GFo7FQ47blw" target="_blank" style="color:black">bouncing balls</a> and <a href="https://youtu.be/vzfuVnm0bps" target="_blank" style="color:black">beanbags</a>, <a href="https://youtu.be/vuuG9Hpi-Dw" target="_blank" style="color:black">rigging skeletons</a>, <a href="https://youtu.be/s_x2TzzoLvg" target="_blank" style="color:black">lip syncing dialogue</a>.',
+        inline: 'style="text-align:left;font-size:18px;"'
+    },
+    {
+        module: 'spacer',
+        height: '40px'
     },
     {
         module: 'title',
@@ -343,10 +378,10 @@ var gamedev = [
     }
 ]
 
-var threed = [
+var artcraft = [
     {
         module: 'header',
-        active: '3d'
+        active: 'artcraft'
     },
     {
         module: 'spacer',
@@ -406,6 +441,21 @@ var threed = [
                 image: 'compact.gif',
                 x: '1',
                 y: '1'
+            },           
+            {
+                image: 'morethings.png',
+                x: '1',
+                y: '1'
+            },
+            {
+                image: 'compact.png',
+                x: '1',
+                y: '1'
+            },
+            {
+                image: 'somethings.png',
+                x: '1',
+                y: '1'
             }
         ]
     },
@@ -426,7 +476,7 @@ var threed = [
         module: 'responsivegallery',
         id: 'studies',
         targetHeight: 425,
-        offset: 8,
+        offset: 11,
         filenames: [           
             {
                 image: 'render2cycles.png',
