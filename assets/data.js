@@ -582,6 +582,24 @@ var artcraft = [
                 caption: 'Compact Muzak EP promo modeling, texturing and stylized render'
             },
             {
+                image: 'morethings.png',
+                x: '1',
+                y: '1',
+                caption: 'More Things EP cover art'
+            },
+            {
+                image: 'compact.png',
+                x: '1',
+                y: '1',
+                caption: 'Compact Muzak EP cover art'
+            },
+            {
+                image: 'somethings.png',
+                x: '1',
+                y: '1',
+                caption: 'Some Things EP cover art'
+            },
+            {
                 image: 'render2cycles.png',
                 x: '12',
                 y: '18',
