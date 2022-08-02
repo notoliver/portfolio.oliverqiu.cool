@@ -722,17 +722,17 @@ var code = [
                 y: '108'
             },
             {
-                image: 'mvpmodel.png',
+                image: 'mvpmodel.PNG',
                 x: '192',
                 y: '108'
             },
             {
-                image: 'mvpstories.png',
+                image: 'mvpstories.PNG',
                 x: '192',
                 y: '108'
             },
             {
-                image: 'mvpwire.png',
+                image: 'mvpwire.PNG',
                 x: '192',
                 y: '108'
             }
@@ -757,17 +757,17 @@ var code = [
                 y: '108'
             },
             {
-                image: 'mvpmodel.png',
+                image: 'mvpmodel.PNG',
                 x: '192',
                 y: '108'
             },
             {
-                image: 'mvpstories.png',
+                image: 'mvpstories.PNG',
                 x: '192',
                 y: '108'
             },
             {
-                image: 'mvpwire.png',
+                image: 'mvpwire.PNG',
                 x: '192',
                 y: '108'
             }
