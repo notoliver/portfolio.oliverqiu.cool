@@ -31,45 +31,6 @@ var projects = [
         active: 'projects'
     },
     {
-        module: 'spacer',
-        height: '10px'
-    },
-    {
-        module: 'title',
-        text: 'A Musical World',
-        inline: 'style="text-align:left;"'
-    },
-    {
-        module: 'spacer',
-        height: '10px'
-    },
-    {
-        module: 'description',
-        text: 'A Musical World is a short developed for a 2D animation class taught by <a style="color:black" href="https://www.chelsearaestudio.com/" target="_blank">Chelsea Cantrell</a>.',
-        inline: 'style="font-size:20px;text-align:left"'
-    },
-    {
-        module: 'spacer',
-        height: '15px'
-    },
-    {
-        module: 'videoembed',
-        html: '<div class = "video-container"><iframe width="1280" height="720" src="https://www.youtube.com/embed/LY1xlMukQcY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
-    },
-    {
-        module: 'spacer',
-        height: '10px'
-    },
-    {
-        module: 'description',
-        text: 'Tech used: Photoshop, GIMP, Toon Boom Harmony, Adobe Premiere<br><br>A Musical World was the final project in a 2D animation class I took - the culmination of smaller, fundamental projects ranging from drawing animation principles like <a href="https://youtu.be/GFo7FQ47blw" target="_blank" style="color:black">bouncing balls</a> and <a href="https://youtu.be/vzfuVnm0bps" target="_blank" style="color:black">beanbags</a>, <a href="https://youtu.be/vuuG9Hpi-Dw" target="_blank" style="color:black">rigging skeletons</a>, <a href="https://youtu.be/s_x2TzzoLvg" target="_blank" style="color:black">lip syncing dialogue</a>.',
-        inline: 'style="text-align:left;font-size:18px;"'
-    },
-    {
-        module: 'spacer',
-        height: '40px'
-    },
-    {
         module: 'title',
         text: 'Riley\'s Room',
         inline: 'style="text-align:left;"'
@@ -276,6 +237,45 @@ var projects = [
         module: 'description',
         text: '- Communicating and coordinating between team members, establishing tasks, deliverables, and deadlines<br>& Managing project version control and sync between members<br>- Direction/vision and corresponding advice to members<br>- Basic environment layout/design<br>- Coding interaction, inventory system, and game flow<br>- Some 3D assets<br>- Sound design and original soundtrack',
         inline: 'style="text-align:left;font-size:18px;padding-left:1.5%;margin-top:0px;"'
+    },
+    {
+        module: 'spacer',
+        height: '40px'
+    },
+    {
+        module: 'title',
+        text: 'A Musical World',
+        inline: 'style="text-align:left;"'
+    },
+    {
+        module: 'spacer',
+        height: '10px'
+    },
+    {
+        module: 'description',
+        text: 'A Musical World is a short developed for a 2D animation class taught by <a style="color:black" href="https://www.chelsearaestudio.com/" target="_blank">Chelsea Cantrell</a>.',
+        inline: 'style="font-size:20px;text-align:left"'
+    },
+    {
+        module: 'spacer',
+        height: '15px'
+    },
+    {
+        module: 'videoembed',
+        html: '<div class = "video-container"><iframe width="1280" height="720" src="https://www.youtube.com/embed/LY1xlMukQcY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+    },
+    {
+        module: 'spacer',
+        height: '10px'
+    },
+    {
+        module: 'description',
+        text: 'Tech used: Photoshop, GIMP, Toon Boom Harmony, Adobe Premiere<br><br>A Musical World was the final project in a 2D animation class I took - the culmination of smaller, fundamental projects ranging from drawing animation principles like <a href="https://youtu.be/GFo7FQ47blw" target="_blank" style="color:black">bouncing balls</a> and <a href="https://youtu.be/vzfuVnm0bps" target="_blank" style="color:black">beanbags</a>, <a href="https://youtu.be/vuuG9Hpi-Dw" target="_blank" style="color:black">rigging skeletons</a>, <a href="https://youtu.be/s_x2TzzoLvg" target="_blank" style="color:black">lip syncing dialogue</a>.',
+        inline: 'style="text-align:left;font-size:18px;"'
+    },
+    {
+        module: 'spacer',
+        height: '40px'
     },
     {
         module: 'spacer',
@@ -684,6 +684,106 @@ var code = [
     },
     {
         module: 'title',
+        text: 'Heavenly Writing Astrology',
+        inline: 'style="text-align:left;"'
+    },
+    {
+        module: 'spacer',
+        height: '10px'
+    },
+    {
+        module: 'description',
+        text: 'Heavenly Writing Astrology was a software development project by a small group of students for client <a href="https://heavenlywriting.com/" target="_blank" style="color:black">Heavenly Writing</a>. In short, the web app would provide daily horoscopes to registered users based on their location and time of birth. Agile scrum methodology was used with 4 two-week sprints. I was a frontend developer. A design document (with sensitive info removed) can be found <a href="mvpsrs.pdf" target="_blank" style="color:black">here</a>.',
+        inline: 'style="text-align:left;font-size:18px;"'
+    },
+    {
+        module: 'spacer',
+        height: '15px'
+    },
+    {
+        module: 'responsivegallery',
+        id: 'mvpgallery',
+        targetHeight: 350,
+        offset: 0,
+        filenames: [
+            {
+                image: 'mvpdash.png',
+                x: '192',
+                y: '108'
+            },
+            {
+                image: 'mvphoro.png',
+                x: '192',
+                y: '108'
+            },
+            {
+                image: 'mvpadminedit.png',
+                x: '192',
+                y: '108'
+            },
+            {
+                image: 'mvpmodel.png',
+                x: '192',
+                y: '108'
+            },
+            {
+                image: 'mvpstories.png',
+                x: '192',
+                y: '108'
+            },
+            {
+                image: 'mvpwire.png',
+                x: '192',
+                y: '108'
+            }
+        ]
+    },
+    {
+        module: 'lightbox',
+        filenames: [{},
+            {
+                image: 'mvpdash.png',
+                x: '192',
+                y: '108'
+            },
+            {
+                image: 'mvphoro.png',
+                x: '192',
+                y: '108'
+            },
+            {
+                image: 'mvpadminedit.png',
+                x: '192',
+                y: '108'
+            },
+            {
+                image: 'mvpmodel.png',
+                x: '192',
+                y: '108'
+            },
+            {
+                image: 'mvpstories.png',
+                x: '192',
+                y: '108'
+            },
+            {
+                image: 'mvpwire.png',
+                x: '192',
+                y: '108'
+            }
+        ]
+    },
+    {
+        module: 'description',
+        text: 'Tech Used: MERN (MongoDB, ExpressJS, React, Node), Agile Scrum, HTML, CSS',
+        inline: 'style="text-align:left;font-size:18px;"'
+    },
+    {
+        module: 'spacer',
+        height: '40px'
+    },
+    {
+        module: 'title',
         text: 'Computer Graphics (Raytracing & Pipeline)',
         inline: 'style="text-align:left;"'
     },
@@ -832,7 +932,7 @@ var photo = [
     {
         module: 'responsivegallery',
         id: 'rileysgallery',
-        targetHeight: 650,
+        targetHeight: 800,
         offset: 0,
         filenames: [
             {
