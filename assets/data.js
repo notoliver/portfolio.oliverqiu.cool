@@ -441,21 +441,6 @@ var artcraft = [
                 image: 'compact.gif',
                 x: '1',
                 y: '1'
-            },           
-            {
-                image: 'morethings.png',
-                x: '1',
-                y: '1'
-            },
-            {
-                image: 'compact.png',
-                x: '1',
-                y: '1'
-            },
-            {
-                image: 'somethings.png',
-                x: '1',
-                y: '1'
             }
         ]
     },
@@ -476,7 +461,7 @@ var artcraft = [
         module: 'responsivegallery',
         id: 'studies',
         targetHeight: 425,
-        offset: 11,
+        offset: 8,
         filenames: [           
             {
                 image: 'render2cycles.png',
@@ -580,24 +565,6 @@ var artcraft = [
                 x: '1',
                 y: '1',
                 caption: 'Compact Muzak EP promo modeling, texturing and stylized render'
-            },
-            {
-                image: 'morethings.png',
-                x: '1',
-                y: '1',
-                caption: 'More Things EP cover art'
-            },
-            {
-                image: 'compact.png',
-                x: '1',
-                y: '1',
-                caption: 'Compact Muzak EP cover art'
-            },
-            {
-                image: 'somethings.png',
-                x: '1',
-                y: '1',
-                caption: 'Some Things EP cover art'
             },
             {
                 image: 'render2cycles.png',
@@ -914,7 +881,7 @@ var photo = [
     {
         module: 'title',
         text: 'Game Photography',
-        inline: 'style="text-align:left;max-width:1600px"'
+        inline: 'style="text-align:left;max-width:1200px"'
     },
     {
         module: 'spacer',
@@ -922,8 +889,8 @@ var photo = [
     },
     {
         module: 'description',
-        text: 'Spaces in games mean alot to me. The feeling of being transported to these worlds - breathing, taking it in, is something I will never take for granted. Game photography, or "screenarchery" as it\'s referred to by some, is a way for me to enjoy and rediscover spaces past my fourth playthrough of a game. It also inspires me, and allows me to appreciate the work of the artists and developers crafting props that might barely recieve a second thought (not to mention it also provides me and endless supply of wallpapers). I use camera tools, and some post-processing suites like ReShade.',
-        inline: 'style="font-size:20px;text-align:left;max-width:1600px"'
+        text: 'Spaces in games mean alot to me. The feeling of being transported to these worlds - breathing, taking it in, is something I will never take for granted. Game photography, or "screenarchery" as it\'s referred to by some, is a way for me to enjoy and rediscover spaces past my fourth playthrough of a game. It also inspires me, and allows me to appreciate the work of the masterful artists and developers. I use camera tools, some post-processing suites like ReShade, and occasionally retouch with Lightroom or Photoshop.',
+        inline: 'style="font-size:20px;text-align:left;max-width:1200px"'
     },
     {
         module: 'spacer',
@@ -932,75 +899,93 @@ var photo = [
     {
         module: 'responsivegallery',
         id: 'rileysgallery',
-        targetHeight: 800,
+        targetHeight: 650,
         offset: 0,
         filenames: [
+            {
+                image: "stellae2.jpg",
+                x: 2783,
+                y: 1080
+            },
             {
                 image: "waves.jpg",
                 x: 1800,
                 y: 1200
             },
             {
-                image: "twowhales.jpg",
+                image: "airships.jpg",
                 x: 1200,
                 y: 1800
-            }, 
+            },                  
             {
-                image: "light.jpg",
+                image: "wolves.jpg",
                 x: 1200,
-                y: 1800
-            },                    
-            {
-                image: "rnr.jpg",
-                x: 1200,
-                y: 1800
+                y: 1946
             },                 
             {
-                image: "enjoyfresh.jpg",
+                image: "lis2brody.jpg",
                 x: 1800,
                 y: 1200
             },
-            {
-                image: "guitar.jpg",
-                x: 1200,
-                y: 1800
-            },   
             {
                 image: "frozen.jpg",
                 x: 2000,
                 y: 600
             },
             {
-                image: "warmth.jpg",
-                x: 1200,
-                y: 1200
-            },
-            {
-                image: "stairs.jpg",
+                image: "sister.jpg",
                 x: 1200,
                 y: 1800
             },
             {
-                image: "drivemycar.jpg",
-                x: 1800,
-                y: 1200
-            },
-              {
-                image: "canyon.jpg",
-                x: 1800,
-                y: 1350
+                image: "minazukibw.jpg",
+                x: 1200,
+                y: 1800
+            },         
+            {
+                image: "cyberpunk1.jpg",
+                x: 1200,
+                y: 1800
+            },         
+            {
+                image: "plague1.jpg",
+                x: 1000,
+                y: 1000
+            },         
+            {
+                image: "rdr2grass.jpg",
+                x: 1200,
+                y: 1500
+            },         
+            {
+                image: "geo.jpg",
+                x: 1200,
+                y: 1800
             },
             {
                 image: "puertolobos.jpg",
-                x: 1800,
-                y: 1200
-            }
+                x: 1620,
+                y: 1080
+            },         
+            {
+                image: "pictureframe.jpg",
+                x: 1200,
+                y: 1800
+            }     
+            
         ],
-        inline:'style="max-width:1600px;"'
+        inline:'style="max-width:1200px;"'
     },
     {
         module: 'lightbox',
         filenames: [{},
+            {
+                image: "stellae2.jpg",
+                title:'Path',
+                source:'Stellae (2021)',
+                url:'https://live.staticflickr.com/65535/52269098047_3fc69f77af_o_d.png',
+                dimensions:'3840 x 1490'
+            },
             {
                 image: "waves.jpg",
                 title:'Waves',
@@ -1009,40 +994,26 @@ var photo = [
                 dimensions:'6000 x 4000'
             },
             {
-                image: "twowhales.jpg",
-                title:'Diner',
-                source:'Life is Strange (2015)',
-                url:'https://live.staticflickr.com/65535/50208723096_a1cb251c8a_o_d.png',
-                dimensions:'4000 x 6000'
-            }, 
-            {
-                image: "light.jpg",
-                title:'Light',
-                source:'Life is Strange: Before the Storm (2017)',
-                url:'https://live.staticflickr.com/65535/50581759231_dc5f7dc943_o_d.png',
-                dimensions:'4000 x 6000'
-            },                    
-            {
-                image: "rnr.jpg",
-                title:'R&R',
-                source:'Life is Strange 2 (2018)',
-                url:'https://live.staticflickr.com/65535/49979414851_7fff23fbfc_o_d.png',
-                dimensions:'6720 x 3780'
-            },                 
-            {
-                image: "enjoyfresh.jpg",
-                title:'Enjoy Fresh',
-                source:'Life Is Strange: True Colors (2021)',
-                url:'https://live.staticflickr.com/65535/51651704820_6b2303e332_o_d.png',
-                dimensions:'4860 x 3240'
+                image: "airships.jpg",
+                title:'Transit',
+                source:'Cyberpunk 2077 (2020)',
+                url:'https://live.staticflickr.com/65535/50742509002_3cd47c96ac_o_d.png',
+                dimensions:'6000 x 4000'
             },
             {
-                image: "guitar.jpg",
-                title:'Strum',
-                source:'Riley\'s Room (2022)',
-                url:'https://live.staticflickr.com/65535/52059680845_d14fe5b3ff_o_d.png',
-                dimensions:'4000 x 6000'
-            },   
+                image: "wolves.jpg",
+                title:'Wolves',
+                source:'Life is Strange 2 (2018)',
+                url:'https://live.staticflickr.com/65535/49978904703_15be04f6c8_o_d.png',
+                dimensions:'4633 x 7560'
+            },
+            {
+                image: "lis2brody.jpg",
+                title:'Brody',
+                source:'Life is Strange 2 (2018)',
+                url:'https://live.staticflickr.com/65535/49979423666_9ccaae2d5c_o_d.png',
+                dimensions:'8537 x 5918'
+            },
             {
                 image: "frozen.jpg",
                 title:'Overlook',
@@ -1051,39 +1022,60 @@ var photo = [
                 dimensions:'7680 x 4320'
             },
             {
-                image: "warmth.jpg",
-                title:'Warmth',
-                source:'Life is Strange 2 (2018)',
-                url:'https://live.staticflickr.com/65535/49979428496_f618c4a2ce_o_d.png',
-                dimensions:'6780 x 3780'
+                image: "sister.jpg",
+                title:'Sister',
+                source:'Star Wars Jedi: Fallen Order (2019)',
+                url:'https://live.staticflickr.com/65535/50178153991_09ff20d6dc_o_d.png',
+                dimensions:'3420 x 5130'
             },
             {
-                image: 'stairs.jpg',
-                title:'Personnel',
-                source:'Tell Me Why (2020)',
-                url:'https://live.staticflickr.com/65535/50648494548_7484ca3fbe_o_d.png',
-                dimensions:'7680 x 4320'
+                image: "minazukibw.jpg",
+                title:'Minazuki',
+                source:'TES V: Skyrim Special Edition (2016)',
+                url:'https://live.staticflickr.com/65535/52141733078_97e9eeff10_o_d.png',
+                dimensions:'4000 x 6000'
             },
             {
-                image: 'drivemycar.jpg',
-                title:'Drive My Car',
-                source:'Tell Me Why (2020)',
-                url:'https://live.staticflickr.com/65535/50650362393_22cd196722_o_d.png',
-                dimensions:'7680 x 4320'
+                image: "cyberpunk1.jpg",
+                title:'Rogue',
+                source:'Cyberpunk 2077 (2020)',
+                url:'https://live.staticflickr.com/65535/50742405986_619c2bd45e_o_d.png',
+                dimensions:'4000 x 6000'
             },
             {
-                image: 'canyon.jpg',
-                title:'Wolves',
-                source:'Life is Strange 2 (2018)',
-                url:'https://live.staticflickr.com/65535/49979414001_484d02f4b6_o_d.png',
-                dimensions:'7680 x 4320'
+                image: "plague1.jpg",
+                title:'Growth',
+                source:'A Plague Tale: Innocence (2019)',
+                url:'https://live.staticflickr.com/65535/50080882441_5ab727352b_o_d.png',
+                dimensions:'5400 x 5400'
             },
             {
-                image: 'puertolobos.jpg',
-                title:'Puerto Lobos',
+                image: "rdr2grass.jpg",
+                title:'Grass',
+                source:'Red Dead Redemption 2 (2018)',
+                url:'https://live.staticflickr.com/65535/49978945808_9d7ae9b71f_o_d.png',
+                dimensions:'2880 x 3600'
+            },
+            {
+                image: "geo.jpg",
+                title:'Formation',
+                source:'Star Wars Battlefront II (2017)',
+                url:'https://live.staticflickr.com/65535/49987159906_7ce1d87557_o_d.png',
+                dimensions:'4000 x 6000'
+            },
+            {
+                image: "puertolobos.jpg",
+                title:'Home',
                 source:'Life is Strange 2 (2018)',
                 url:'https://live.staticflickr.com/65535/49978892758_4c2a001d01_o_d.png',
                 dimensions:'7680 x 4320'
+            },
+            {
+                image: "pictureframe.jpg",
+                title:'Memory',
+                source:'Riley\'s Room (2022)',
+                url:'https://live.staticflickr.com/65535/52059229143_3efe089510_o_d.png',
+                dimensions:'4000 x 6000'
             }
         ]
     },
@@ -1094,7 +1086,7 @@ var photo = [
     {
         module: 'title',
         text: 'Wallpaper Engine',
-        inline: 'style="text-align:left;max-width:1600px"'
+        inline: 'style="text-align:left;max-width:1200px"'
     },
     {
         module: 'spacer',
@@ -1103,7 +1095,7 @@ var photo = [
     {
         module: 'description',
         text: 'I record environmental scenes in various games for use with Wallpaper engine, a program that lets users use animated wallpapers. <a href="https://steamcommunity.com/id/notoliver/myworkshopfiles/" target="_blank" style="color:black">Steam workshop link</a>',
-        inline: 'style="font-size:20px;text-align:left;max-width:1600px"'
+        inline: 'style="font-size:20px;text-align:left;max-width:1200px"'
     },
     {
         module: 'spacer',
@@ -1129,7 +1121,7 @@ var photo = [
             }
             
         ],
-        inline: 'style="max-width:1600px"'
+        inline: 'style="max-width:1200px"'
     },
     {
         module: 'spacer',
