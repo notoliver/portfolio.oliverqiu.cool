@@ -943,7 +943,7 @@ var photo = [
                 y: 1800
             },         
             {
-                image: "cyberpunk1.jpg",
+                image: "nierdesert.jpg",
                 x: 1200,
                 y: 1800
             },         
@@ -1036,11 +1036,11 @@ var photo = [
                 dimensions:'4000 x 6000'
             },
             {
-                image: "cyberpunk1.jpg",
-                title:'Rogue',
-                source:'Cyberpunk 2077 (2020)',
-                url:'https://live.staticflickr.com/65535/50742405986_619c2bd45e_o_d.png',
-                dimensions:'4000 x 6000'
+                image: "nierdesert.jpg",
+                title:'Entrance',
+                source:'NieR:Automata (2017)',
+                url:'https://portfolio.oliverqiu.cool/photo/images/nier1.png',
+                dimensions:'2000 x 3000'
             },
             {
                 image: "plague1.jpg",
