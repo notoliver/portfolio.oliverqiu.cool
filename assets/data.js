@@ -32,6 +32,50 @@ var projects = [
     },
     {
         module: 'title',
+        text: 'Dee n Desk (GMTK Game Jam 2022)',
+        inline: 'style="text-align:left;"'
+    },
+    {
+        module: 'spacer',
+        height: '10px'
+    },
+    {
+        module: 'description',
+        text: 'Dee n Desk is a narrative mystery game created with a five person team in 48 hours. It\'s about working from home at a boutique dice company, and solving a mystery that comes up!',
+        inline: 'style="font-size:20px;text-align:left"'
+    },
+    {
+        module: 'spacer',
+        height: '15px'
+    },
+    {
+        module: 'videoembed',
+        html: '<div class = "video-container"><iframe width="1280" height="720" src="https://www.youtube.com/embed/FCA4tDlV11c?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
+    },
+    {
+        module: 'spacer',
+        height: '10px'
+    },
+    {
+        module: 'description',
+        text: 'Click <a href="https://not-oliver.itch.io/dee-n-desk" target="_blank" style="color:black">here</a> to view the itch.io page',
+        inline: 'style="font-size:20px;"'
+    },
+    {
+        module: 'spacer',
+        height: '10px'
+    },
+    {
+        module: 'description',
+        text: 'Tech used: Unity, C#, Blender, Photoshop, GIMP<br><br>Dee n Desk is a 48-hour game jam branching narrative game (mostly) taking place on a workplace app talking to coworkers. I was the lead gameplay programmer and artist, most notably designing and programming the slack-esque UI and interactions - channel switching, message scrolling, sending/receiving. I implemented the dialogue system using inkle studio\'s <a href="https://not-oliver.itch.io/dee-n-desk" target="https://www.inklestudios.com/ink/" style="color:black">ink.</a>',
+        inline: 'style="text-align:left;font-size:18px;"'
+    },
+    {
+        module: 'spacer',
+        height: '60px'
+    },
+    {
+        module: 'title',
         text: 'Riley\'s Room',
         inline: 'style="text-align:left;"'
     },
@@ -133,7 +177,7 @@ var projects = [
     },
     {
         module: 'spacer',
-        height: '40px'
+        height: '60px'
     },
     {
         module: 'title',
@@ -240,7 +284,7 @@ var projects = [
     },
     {
         module: 'spacer',
-        height: '40px'
+        height: '60px'
     },
     {
         module: 'title',
