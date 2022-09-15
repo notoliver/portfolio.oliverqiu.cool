@@ -26,10 +26,11 @@ var home = [
 ]
 
 var projects = [
-    /*{
+   {
         module: 'header',
         active: 'projects'
     },
+     /*
     {
         module: 'title',
         text: 'Dee n Desk (GMTK Game Jam 2022)',
@@ -428,10 +429,6 @@ var artcraft = [
         active: 'artcraft'
     },
     {
-        module: 'spacer',
-        height: '10px'
-    },
-    {
         module: 'title',
         text: 'Original Art/Models',
         inline: 'style="text-align:left;"'
@@ -688,11 +685,12 @@ var code = [
     {
         module: 'header',
         active: 'code'
-    },
+    },/*
     {
         module: 'spacer',
         height: '10px'
     },
+    
     {
         module: 'title',
         text: 'Heavenly Writing Astrology',
@@ -711,6 +709,7 @@ var code = [
         module: 'spacer',
         height: '15px'
     },
+    
     {
         module: 'responsivegallery',
         id: 'mvpgallery',
@@ -793,6 +792,7 @@ var code = [
         module: 'spacer',
         height: '40px'
     },
+    */
     {
         module: 'title',
         text: 'Computer Graphics (Raytracing & Pipeline)',
