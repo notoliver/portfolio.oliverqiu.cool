@@ -10,7 +10,7 @@ var home = [
     {
         module: 'imgtext',
         filename: '/about/images/IMG_5394.jpg',
-        text: 'Hi, I\'m Oliver, an aspiring game producer and artist based in Los Angeles. I recently graduated from the University of Florida with a B.S. in Digital Arts & Sciences<br><br>To tell familiar (and unfamiliar) stories, to evoke otherwise indescribable emotions, and to craft detailed, authentic experiences are goals that inform what I do and why across all mediums.<br><br>A passion to create things independently has equipped me with a wide skillset, and when combined with my organized, detail-driven personality, allows me to exceed in production and assistance roles.<br><br>I\'m also deeply passionate about music - I transcribe, share knowledge about, and cover music I love on my <a href = "https://www.youtube.com/c/naughtoliver" target=\"_blank\">youtube channel</a>. I also create original easy listening and ambient <a href = "https://oliverqiu.cool/music/ep5" target=\"_blank\">music.</a><br><br>On the weekends you\'ll find me road cycling, or practicing my euro-steps at the closest basketball court.<br><br>You can find my resume <a href = \"\/assets\/cl_oliverqiu_resume.pdf\" target=\"_blank\">here<\/a><br><br>And my senior thesis <a href = \"https:\/\/ufdc.ufl.edu\/AA00088513\/00001\" target=\"_blank\">here<\/a>'
+        text: 'Hi, I\'m Oliver, an aspiring game developer based in Los Angeles. I recently graduated from the University of Florida with a B.S. in Digital Arts & Sciences<br><br>To tell familiar (and unfamiliar) stories, to evoke otherwise indescribable emotions, and to craft detailed, authentic experiences are goals that inform what I do and why across all mediums.<br><br>A passion to create things independently/as part of small teams has equipped me with a wide skillset that complements my focus in programming and production.<br><br>I\'m also deeply passionate about music - I transcribe, share knowledge about, and cover music I love on my <a href = "https://www.youtube.com/c/naughtoliver" target=\"_blank\">youtube channel</a>. I also create original easy listening and ambient <a href = "https://oliverqiu.cool/music/ep5" target=\"_blank\">music.</a><br><br>On the weekends you\'ll find me cycling in Griffith Park, or practicing my euro-steps at the closest basketball court.<br><br>You can find my resume <a href = \"\/assets\/oliverqiu_resume.pdf\" target=\"_blank\">here<\/a><br><br>And my senior thesis <a href = \"https:\/\/ufdc.ufl.edu\/AA00088513\/00001\" target=\"_blank\">here<\/a>'
     },
     {
         module: 'spacer',
@@ -30,7 +30,10 @@ var projects = [
         module: 'header',
         active: 'projects'
     },
-     /*
+    {
+        module: 'spacer',
+        height: '10px'
+    },
     {
         module: 'title',
         text: 'Dee n Desk (GMTK Game Jam 2022)',
@@ -46,6 +49,11 @@ var projects = [
         inline: 'style="font-size:20px;text-align:left"'
     },
     {
+        module: 'description',
+        text: 'Click <a href="https://not-oliver.itch.io/dee-n-desk" target="_blank" style="color:black">here</a> to view the itch.io page',
+        inline: 'style="font-size:20px;text-align:left"'
+    },
+    {
         module: 'spacer',
         height: '15px'
     },
@@ -56,11 +64,6 @@ var projects = [
     {
         module: 'spacer',
         height: '10px'
-    },
-    {
-        module: 'description',
-        text: 'Click <a href="https://not-oliver.itch.io/dee-n-desk" target="_blank" style="color:black">here</a> to view the itch.io page',
-        inline: 'style="font-size:20px;"'
     },
     {
         module: 'spacer',
@@ -74,7 +77,7 @@ var projects = [
     {
         module: 'spacer',
         height: '60px'
-    },*/
+    },
     {
         module: 'title',
         text: 'Riley\'s Room',
@@ -87,6 +90,11 @@ var projects = [
     {
         module: 'description',
         text: 'Riley\'s Room is a solo narrative environment art project that explores leaving for and returning from college.',
+        inline: 'style="font-size:20px;text-align:left"'
+    },
+    {
+        module: 'description',
+        text: 'Download here: <a href="https://drive.google.com/file/d/1lzFhAcZ6kyXYckDtHMBVHYOY_hPb48Sj/view?usp=sharing" target="_blank" style="color:black">Google Drive</a>',
         inline: 'style="font-size:20px;text-align:left"'
     },
     {
@@ -196,7 +204,7 @@ var projects = [
     },
     {
         module: 'description',
-        text: 'Learn more here: <a href="https://www.behance.net/gallery/117930977/Stellae?tracking_source=search_projects_recommended%7Cstellae" target="_blank" style="color:black">Behance</a>',
+        text: 'Learn more and download here: <a href="https://www.behance.net/gallery/117930977/Stellae?tracking_source=search_projects_recommended%7Cstellae" target="_blank" style="color:black">Behance</a>',
         inline: 'style="font-size:20px;text-align:left"'
     },
     {
@@ -280,9 +288,9 @@ var projects = [
     },
     {
         module: 'description',
-        text: '- Communicating and coordinating between team members, establishing tasks, deliverables, and deadlines<br>& Managing project version control and sync between members<br>- Direction/vision and corresponding advice to members<br>- Basic environment layout/design<br>- Coding interaction, inventory system, and game flow<br>- Some 3D assets<br>- Sound design and original soundtrack',
+        text: '- Communicating and coordinating between team members, establishing tasks, deliverables, and deadlines<br>- Managing project version control and sync between members<br>- Direction/vision and corresponding advice to members<br>- Basic environment layout/design<br>- Coding interaction, inventory system, and game flow<br>- Some 3D assets<br>- Sound design and original soundtrack',
         inline: 'style="text-align:left;font-size:18px;padding-left:1.5%;margin-top:0px;"'
-    },
+    },/*
     {
         module: 'spacer',
         height: '60px'
@@ -321,7 +329,7 @@ var projects = [
     {
         module: 'spacer',
         height: '40px'
-    },
+    },*/
     {
         module: 'spacer',
         height: '50px'
@@ -427,6 +435,10 @@ var artcraft = [
     {
         module: 'header',
         active: 'artcraft'
+    },
+    {
+        module: 'spacer',
+        height: '10px'
     },
     {
         module: 'title',
@@ -685,12 +697,55 @@ var code = [
     {
         module: 'header',
         active: 'code'
-    },/*
+    },
     {
         module: 'spacer',
         height: '10px'
     },
-    
+    /*
+    {
+        module: 'title',
+        text: 'Miscellaneous Unity Scripts',
+        inline: 'style="text-align:left;"'
+    },
+    {
+        module: 'responsivegallery',
+        id: 'unitygallery',
+        targetHeight: 250,
+        offset: 0,
+        filenames: [
+            {
+                image: 'slack.gif',
+                x: '192',
+                y: '108'
+            },
+            {
+                image: 'thoughts.gif',
+                x: '192',
+                y: '108'
+            },
+            {
+                image: 'inventory.gif',
+                x: '192',
+                y: '108'
+            }
+        ]
+    },
+    {
+        module: 'description',
+        text: 'Tech Used: C#, Unity<br><br>Scripts created for my Unity projects',
+        inline: 'style="text-align:left;font-size:18px;"'
+    },
+    {
+        module: 'description',
+        text: '- faux slack interface, complete with channel switching/persistence, notifications, scrolling, "typing" (for <a style= "color:black" href="https://not-oliver.itch.io/dee-n-desk" target="_blank">DEE n DESK</a>)<br>- dynamic "thought" system triggered by direct interaction, triggers, story checkpoints (for <a style= "color:black" href="https://drive.google.com/file/d/1lzFhAcZ6kyXYckDtHMBVHYOY_hPb48Sj/view?usp=sharing" target="_blank">Riley\'s Room</a> and <a style= "color:black" href="https://www.behance.net/gallery/117930977/Stellae" target="_blank">Stellae</a>)<br>- narrative-focused, minimal inventory, collection, and campsite building system (for <a style= "color:black" href="https://www.behance.net/gallery/117930977/Stellae" target="_blank">Stellae</a>)',
+        inline: 'style="text-align:left;font-size:18px;padding-left:1.5%;margin-top:0px;"'
+    },
+    {
+        module: 'spacer',
+        height: '40px'
+    },
+       
     {
         module: 'title',
         text: 'Heavenly Writing Astrology',
@@ -709,48 +764,12 @@ var code = [
         module: 'spacer',
         height: '15px'
     },
-    
     {
         module: 'responsivegallery',
         id: 'mvpgallery',
-        targetHeight: 350,
-        offset: 0,
+        targetHeight: 250,
+        offset: 3,
         filenames: [
-            {
-                image: 'mvpdash.png',
-                x: '192',
-                y: '108'
-            },
-            {
-                image: 'mvphoro.png',
-                x: '192',
-                y: '108'
-            },
-            {
-                image: 'mvpadminedit.png',
-                x: '192',
-                y: '108'
-            },
-            {
-                image: 'mvpmodel.PNG',
-                x: '192',
-                y: '108'
-            },
-            {
-                image: 'mvpstories.PNG',
-                x: '192',
-                y: '108'
-            },
-            {
-                image: 'mvpwire.PNG',
-                x: '192',
-                y: '108'
-            }
-        ]
-    },
-    {
-        module: 'lightbox',
-        filenames: [{},
             {
                 image: 'mvpdash.png',
                 x: '192',
@@ -791,8 +810,84 @@ var code = [
     {
         module: 'spacer',
         height: '40px'
+    }, 
+    {
+        module: 'title',
+        text: 'Computer Graphics / Visual Programming',
+        inline: 'style="text-align:left;"'
     },
-    */
+    {
+        module: 'responsivegallery',
+        id: 'compgraphgallery',
+        targetHeight: 500,
+        offset: 9,
+        filenames: [
+            {
+                image: 'raytracer.gif',
+                x: '1',
+                y: '1'
+            },
+            {
+                image: 'monkerotation.gif',
+                x: '1',
+                y: '1'
+            },
+            {
+                image: 'terrain2.gif',
+                x: '1',
+                y: '1'
+            }
+        ]
+    },
+    {
+        module: 'description',
+        text: 'Tech Used: C++, GLSL, Processing, Javascript<br><br>Educational projects pertaining to computer graphics and visual concepts',
+        inline: 'style="text-align:left;font-size:18px;"'
+    },
+    {
+        module: 'description',
+        text: '- learned about the principles of and programmed a simple <a href="https://github.com/notoliver/cap4730_raytracer" target="_blank" style="color:black">first-hit raytracer</a> using C++, GLFW, and GLEW<br>- studied the graphics pipeline and coded an <a href="https://github.com/notoliver/cap4730_openglviewer" target="_blank" style="color:black">OpenGL 3D model viewer</a> with C++, those same libraries, and GLSL<br>- <a href="https://github.com/notoliver/cap3027_project4" target="_blank" style="color:black">terrain visualiser</a> that renders depth maps as 3D terrains, with various features like displacement and color thresholds',
+        inline: 'style="text-align:left;font-size:18px;padding-left:1.5%;margin-top:0px;"'
+    },
+    {
+        module: 'spacer',
+        height: '40px'
+    },
+    {
+        module: 'title',
+        text: 'Visual Programming',
+        inline: 'style="text-align:left;"'
+    },
+    {
+        module: 'photogrid',
+        filenames: [
+            {
+                image: 'terrain1.gif',
+                x: '1',
+                y: '1'
+            },
+            {
+                image: 'terrain2.gif',
+                x: '1',
+                y: '1'
+            },
+            {
+                image: 'turntablesim.gif',
+                x: '1',
+                y: '1'
+            }
+        ]
+    },
+    {
+        module: 'description',
+        text: 'Tech Used: Processing, Javascript, Visual Studio Code<br><br>Various programming projects with visual components/interfaces',
+        inline: 'style="text-align:left;font-size:18px;"'
+    },
+    {
+        module: 'description',
+        text: '- a <a href="https://github.com/notoliver/cap3027_project2" target="_blank" style="color:black">random walk generator</a> with boundary detection, terrain coloring, and various parameters<br>- a <a href="https://github.com/notoliver/cap3027_project4" target="_blank" style="color:black">terrain visualiser</a> that renders depth maps as 3D terrains, with various features like displacement and color thresholds<br>- <a href="https://github.com/notoliver/cap3032_finalproject" target="_blank" style="color:black">"Turntable Simulator"</a> minigame, where the player controls a tone arm and has to dodge dust specs and scratches',
+        inline: 'style="text-align:left;font-size:18px;padding-left:1.5%;margin-top:0px;"'
+    },*/
     {
         module: 'title',
         text: 'Computer Graphics (Raytracing & Pipeline)',
@@ -872,6 +967,10 @@ var code = [
         height: '40px'
     },
     {
+        module: 'spacer',
+        height: '40px'
+    },
+    {
         module: 'title',
         text: 'Freelance Web Design',
         inline: 'style="text-align:left;"'
@@ -904,13 +1003,78 @@ var code = [
     },
     {
         module: 'description',
-        text: 'Tech Used: HTML, CSS, Javascript, Visual Studio Code<br><br>Custom built webpages and domain setup for clients',
+        text: 'Tech Used: HTML, CSS, Javascript, Github (Pages)<br><br>Custom built webpages and domain setup for clients',
         inline: 'style="text-align:left;font-size:18px;"'
     },
     {
         module: 'spacer',
         height: '50px'
-    }
+    },
+    {
+        module: 'lightbox',
+        filenames: [{},
+            {
+                image: 'raytracer.gif',
+                x: '192',
+                y: '108'
+            },
+            {
+                image: 'raytracer.gif',
+                x: '192',
+                y: '108'
+            },
+            {
+                image: 'raytracer.gif',
+                x: '192',
+                y: '108'
+            },
+            {
+                image: 'mvpdash.png',
+                x: '192',
+                y: '108'
+            },
+            {
+                image: 'mvphoro.png',
+                x: '192',
+                y: '108'
+            },
+            {
+                image: 'mvpadminedit.png',
+                x: '192',
+                y: '108'
+            },
+            {
+                image: 'mvpmodel.PNG',
+                x: '192',
+                y: '108'
+            },
+            {
+                image: 'mvpstories.PNG',
+                x: '192',
+                y: '108'
+            },
+            {
+                image: 'mvpwire.PNG',
+                x: '192',
+                y: '108'
+            },
+            {
+                image: 'raytracer.gif',
+                x: '1',
+                y: '1'
+            },
+            {
+                image: 'monkerotation.gif',
+                x: '1',
+                y: '1'
+            },
+            {
+                image: 'terrain2.gif',
+                x: '1',
+                y: '1'
+            }
+        ]
+    },
 ]
 
 var photo = [
