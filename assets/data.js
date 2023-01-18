@@ -745,20 +745,11 @@ var code = [
         module: 'spacer',
         height: '40px'
     },
-       
+    */
     {
         module: 'title',
         text: 'Heavenly Writing Astrology',
         inline: 'style="text-align:left;"'
-    },
-    {
-        module: 'spacer',
-        height: '10px'
-    },
-    {
-        module: 'description',
-        text: 'Heavenly Writing Astrology was a software development project by a small group of students for client <a href="https://heavenlywriting.com/" target="_blank" style="color:black">Heavenly Writing</a>. In short, the web app would provide daily horoscopes to registered users based on their location and time of birth. Agile scrum methodology was used with 4 two-week sprints. I was a frontend developer. A design document (with sensitive info removed) can be found <a href="mvpsrs.pdf" target="_blank" style="color:black">here</a>.',
-        inline: 'style="text-align:left;font-size:18px;"'
     },
     {
         module: 'spacer',
@@ -809,6 +800,15 @@ var code = [
     },
     {
         module: 'spacer',
+        height: '10px'
+    },
+    {
+        module: 'description',
+        text: 'Heavenly Writing Astrology was a software development project by a small group of students for client <a href="https://heavenlywriting.com/" target="_blank" style="color:black">Heavenly Writing</a>. In short, the web app would provide daily horoscopes to registered users based on their location and time of birth. Agile scrum methodology was used with 4 two-week sprints. I was a frontend developer, and was also responsible for basic UX/UI. A design document (with sensitive info removed) can be found <a href="mvpsrs.pdf" target="_blank" style="color:black">here</a>.',
+        inline: 'style="text-align:left;font-size:18px;"'
+    },
+    {
+        module: 'spacer',
         height: '40px'
     }, 
     {
@@ -853,6 +853,7 @@ var code = [
         module: 'spacer',
         height: '40px'
     },
+    /*
     {
         module: 'title',
         text: 'Visual Programming',
@@ -887,7 +888,7 @@ var code = [
         module: 'description',
         text: '- a <a href="https://github.com/notoliver/cap3027_project2" target="_blank" style="color:black">random walk generator</a> with boundary detection, terrain coloring, and various parameters<br>- a <a href="https://github.com/notoliver/cap3027_project4" target="_blank" style="color:black">terrain visualiser</a> that renders depth maps as 3D terrains, with various features like displacement and color thresholds<br>- <a href="https://github.com/notoliver/cap3032_finalproject" target="_blank" style="color:black">"Turntable Simulator"</a> minigame, where the player controls a tone arm and has to dodge dust specs and scratches',
         inline: 'style="text-align:left;font-size:18px;padding-left:1.5%;margin-top:0px;"'
-    },*/
+    },
     {
         module: 'title',
         text: 'Computer Graphics (Raytracing & Pipeline)',
@@ -966,6 +967,7 @@ var code = [
         module: 'spacer',
         height: '40px'
     },
+    */
     {
         module: 'spacer',
         height: '40px'
@@ -984,9 +986,26 @@ var code = [
         text: '<a href="https://ingridwu.art" target="_blank" style="color:black">ingridwu.art</a> - <a href="https://github.com/ingridwho/ingridwu.art" target="_blank" style="color:black">source</a>',
         inline: 'style="font-size:20px;"'
     },
+    /*
     {
         module: 'widephoto',
         filename: 'ingridwuart.gif'
+    },
+    */
+    {
+        module: 'photogrid',
+        filenames: [
+            {
+                image: 'ingridwuart.gif',
+                x: '16',
+                y: '9'
+            },
+            {
+                image: 'ingridwuartmobile.gif',
+                x: '9',
+                y: '16'
+            }
+        ]
     },
     {
         module: 'spacer',
@@ -998,8 +1017,19 @@ var code = [
         inline: 'style="font-size:20px;"'
     },
     {
-        module: 'widephoto',
-        filename: 'theopennesscom.gif'
+        module: 'photogrid',
+        filenames: [
+            {
+                image: 'theopennesscom.gif',
+                x: '16',
+                y: '9'
+            },
+            {
+                image: 'theopennesscommobile.gif',
+                x: '9',
+                y: '16'
+            }
+        ]
     },
     {
         module: 'description',
